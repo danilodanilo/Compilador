@@ -1,0 +1,25 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package maquinavirtual;
+
+/**
+ *
+ * @author jp
+ */
+public class Instrucao {
+    
+    private String operacao;
+    private String atributo1;
+    private String atributo2;
+    private String comentario;
+
+    Instrucao(String string, String string0, String string1, String string2) {
+        this.operacao = string;
+        this.atributo1 = string0;
+        this.atributo2 = string1;
+        this.comentario = string2;
+    }
+    
+}

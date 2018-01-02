@@ -1,0 +1,17 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package maquinavirtual;
+
+/**
+ *
+ * @author jp
+ */
+public class ExecutarInstrucoes {
+    
+    public void executar(int numero_linha,int valor)
+    {
+       
+    }
+}

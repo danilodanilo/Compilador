@@ -1,0 +1,21 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package maquinavirtual;
+
+import javax.swing.JButton;
+
+/**
+ *
+ * @author jp
+ */
+public class Execucao {
+    
+    private JButton botaoExecutar;
+
+    Execucao(JButton jButton1) {
+        botaoExecutar = jButton1;
+    }
+    
+}

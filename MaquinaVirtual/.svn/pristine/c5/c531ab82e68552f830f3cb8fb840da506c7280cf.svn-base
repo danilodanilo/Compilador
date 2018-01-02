@@ -1,0 +1,46 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package maquinavirtual;
+
+import java.util.ArrayList;
+import java.util.Stack;
+
+    
+/**
+ *
+ * @author jp
+ */
+public class ExecutarInstrucoes {
+
+    ExecutarInstrucoes(ArrayList<Instrucoes> instrucoes, int numero_linha) {
+        
+        Stack<Integer> pilha =new Stack<Integer>();
+        
+        
+        
+        for(Instrucoes cod: instrucoes)
+        {
+            if(cod.getOperacao().equals("LDC")) 
+            {  
+                // LDC k
+                // s = s + 1;
+                pilha.add(Integer.valueOf(cod.getParam1())); 
+                // M[s] = k 
+            }
+            
+            if(cod.getOperacao().equals("LDV")) 
+            {  
+                // LDV n
+                // s = s + 1;
+                pilha.add(Integer.valueOf(cod.getParam1())); 
+                // M[s] = M[n] 
+            }   
+        }
+        
+        
+    }
+    
+
+}

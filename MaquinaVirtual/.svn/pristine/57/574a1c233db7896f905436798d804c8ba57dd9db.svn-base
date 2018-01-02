@@ -1,0 +1,30 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package maquinavirtual;
+
+/**
+ *
+ * @author jp
+ */
+public class MaquinaVirtual extends MaquinaVirtualUI{
+
+    /**
+     * @param args the command line arguments
+     */
+    
+    
+    public void MaquinaVirtual()
+    {
+        System.out.println("jones");
+    }
+     
+    
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+       MaquinaVirtualUI ui = new MaquinaVirtualUI();
+       ui.show();
+    }
+}
